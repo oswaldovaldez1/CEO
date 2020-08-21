@@ -1,0 +1,622 @@
+/*148px*/
+
+.siguenos{
+    font-family: "Exo 2";
+    font-size: 30px;
+    transform: rotate(270deg);
+    position: absolute;
+    color:#ccc;
+    width: 146px;    
+    left: -63px;
+}
+.linkredes:hover{
+    text-decoration: none;
+}
+.icon-twitter,.icon-facebook,.icon-instagram,.icon-youtube{
+    color: rgb(78,0,153);
+}
+.icon-youtube:hover,
+.icon-twitter:hover,
+.icon-facebook:hover,
+.icon-instagram:hover{
+    color: red;
+}
+.navbar{
+    background-image: url("../img/home/1920/menu.png") !important;
+    background-size: auto 100%;
+}
+.nompon{
+        text-decoration: none;
+    }
+    .nompon:hover{
+        text-decoration: none;
+    }
+    .menufooter{
+        color: white;                
+    } 
+    .itemfooter:hover{
+        color: rgb(255, 255, 255);
+        text-decoration: underline;
+        text-decoration-color: red;
+    }   
+    .itemfooter{
+        font-size: 10.417px;
+      font-family: "Exo 2";
+      color: rgb(255, 255, 255) !important;
+      text-transform: uppercase;
+    }
+    .derres{
+        color: white;
+        position: absolute;
+        padding-top: 44px;
+        padding-left: 197px;
+        font-size: 11.458px;
+      font-family: "Exo 2 Light";
+      color: rgb(255, 255, 255);
+      line-height: 1.92;
+    }
+    .totop{        
+    position: absolute;
+    padding-top: 44px;
+    padding-left: 80vw;
+    font-size: 20px;
+    font-family: "Exo 2 Light";
+    color: rgb(255, 255, 255);
+    line-height: 1.92;
+    }
+    .iconoceo{
+        position: absolute;
+        /*left: 50%;
+        right: 50%;*/    
+        padding-top: 44px;
+    }
+    .footer{
+          background-color: rgb(78, 0, 153);
+          width: 100%;
+          height: 150px;
+    }
+    .organizadores{
+        background-color: white;
+    }
+    
+    .divapp:hover .icondowna{
+        /*width: 35px;*/
+        visibility: visible;        
+    }
+    .divapp .astronauta{
+        right: 92px;
+    }
+    .divapp .textoapp{     
+        width: 154px;
+        color: rgb(90, 0, 157) !important;
+        padding-left: 35px;
+        padding-top: 16px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .divapp .textoapp a{
+        color: rgb(90, 0, 157) !important;
+        padding-left: 15px;
+        padding-top: 16px;
+        font-weight: bold;
+        text-decoration: none;        
+    }
+    .icondowna{
+        width: 25px;
+        visibility: hidden;
+    }
+    .textoapp{
+    font-family: "Exo 2";
+    font-weight: bold;
+    line-height: 2.82;
+    text-align: left;
+    background-color: #30f3f8;
+    height: 72px;
+    width: 94px;
+    color: transparent !important;
+    text-decoration: none;
+    }
+    .textoapp a{
+    font-family: "Exo 2";
+    font-weight: bold;
+    line-height: 2.82;    
+    color: transparent !important;
+    text-decoration: none;
+    }
+    .divapp{
+        position: fixed;
+        top: 40%;
+        right: 0px;
+        z-index: 100;
+    }
+    .redesosciales{
+        position: fixed;
+        top: 20%;
+        left: 30px;
+        z-index: 100;
+    }
+    .astronauta{
+        position: absolute;
+        /* height: 100%; */
+        /* width: 87px; */
+        top: -35px;
+        right: 32px;/*47px;*/
+        /* z-index: 120; */
+        width: 137px;
+        height: auto;
+    }
+    .pieubicacion{
+        color: white;
+        position: absolute;
+        bottom: 66px;
+        left: 152px;
+        font-family: "EXO 2";
+    }
+       .secciones {
+    background-image: url(../img/home/bannerprincipal/base01_frase.png);
+    color: white;
+    position: absolute;
+    right: 20%;
+    font-family: "EXO 2";
+    top: 114px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    padding-left: 19px;
+    padding-top: 10px;
+    background-size: 100% 100%;
+}
+.planeta1{
+    width: 108px;
+    position: absolute;
+    top: 161px;
+    right: 20px;
+}
+.cubo1{
+    width: 60px;
+    position: absolute;
+    right: 70%;
+    top: 67px;
+}
+    .botonubicaciona{
+        background-color: transparent !important;
+        border-color: white;
+        position: absolute;
+        top:80%;
+        left: 75px;
+        border-radius: 0px;
+        width: 181px;
+        height: 45px;
+        padding-top: 12px;
+        letter-spacing: 3px;
+
+    }
+    #modalmapa,#modalmapa1{
+        /*position: absolute;*/
+    }
+    .framemapa{
+        width: 100%;
+        
+    }
+    .direccion{
+      font-size: 16.667px;
+      font-family: "Exo 2";
+      color: rgb(255, 255, 255);
+      line-height: 1.44;
+      text-align: left;
+      position: absolute;
+      /*right: -13px;*/
+      right: 0px;
+      top: 299px;
+
+    }
+    .centroconvenciones{
+        font-family: "Exo 2";
+        font-weight: bold;
+        font-size: 25px;
+        color: rgb(48, 243, 248);
+        line-height: 1.08;
+        text-align: left;
+        
+        position: absolute;
+        left: 75px;
+        top: 105px;
+    }
+    .vermapa{
+      font-size: 16.667px;
+      font-family: "Exo 2 Light";
+      color: rgb(255, 255, 255);
+      line-height: 1.44;
+      text-align: center
+    }
+    .puntos{
+            position: absolute;
+    right: -320px;
+    bottom: -259px;
+    width: 340px;
+        }
+    
+    .triangulo1{
+        position: absolute;
+        right: -220px;
+        top: 20px;
+    }
+    .triangulo2{
+        position: absolute;
+        right: -165px;
+        top: -3px;
+    }
+    .textoponentes{
+        font-family: "Exo 2";
+        text-align: justify;
+        width: 62%;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .infoponente{
+        padding-top: 40px;
+    }
+    /*.modal-header{
+        border-bottom: 0px !important;
+    }
+    .modal-footer{
+        border-top: 0px !important;
+    }
+    #modalponente,#exampleModal{
+        position: absolute !important;
+    }
+    .modal-open .modal{
+        overflow-y: hidden;
+    }
+    .modal-dialog{
+        min-width: 758px;
+        max-height: 516px;
+        top: -30px;
+    }*/
+    .cierre{
+        color: black;
+    }
+    .secponentes{
+        padding-top: 5em;
+    }
+    .container{
+/*        background-color: lawngreen;*/
+    }
+    .video{
+        width: 100%;        
+    }
+    .backpru{
+        /* background-color: lawngreen;*/
+    }
+    .ponentes{
+        max-width: 230px;
+        max-height: 230px;
+    }
+    .ponentes1{
+        max-width: 230px;
+        max-height: 230px;
+    }
+    .paddinponentes{
+        padding-bottom: 32px;
+    }
+    .bannerpr{
+        background-image: url('../img/home/banner1.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+        margin-bottom: 50px;
+    }
+    .bannerubicacion{
+        background-image: url('../img/home/bannerubicacion.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 923px;
+        width: 1437px;
+        
+    }
+    .titulo_ponentes{
+        font-size: 39.583px;
+        font-family: "Exo 2";
+        color: rgb(34, 34, 34);
+        line-height: 1.2;
+    }
+    .contenido_ponentes{
+        font-size: 16.667px;
+        font-family: "Exo 2";
+        color: rgb(75, 75, 75);
+        line-height: 1.44;
+    }
+    .titulo_patrocinadores{
+        font-size: 39.583px;
+        font-family: "Exo 2";
+        color: rgb(34, 34, 34);
+        line-height: 1.2;
+    }
+    .contenido_patrcinadores{
+        font-size: 16.667px;
+        font-family: "Exo 2";
+        color: rgb(85, 85, 85);
+        line-height: 1.44;
+    }
+    #twitter-widget-0{
+        max-width: 300px !important;
+    }      
+    #contenedortwitter{
+        overflow-y: auto;
+        height: 400px;                    
+        width: 100%;
+    }
+    .contenedorface{
+        height: 400px;                    
+        width: 100%;
+    }
+    .navbar{
+
+    background-image: url("../img/home/2560/menu.png") !important;
+    background-size: auto 100vw;
+    background-repeat: no-repeat
+
+        /*background-color: rgba(78,0,153,.9);*/
+        /*background-color: rgba(127,127,127,0.6);*/
+    }
+    .nombreponente{
+        font-size: 23px !important;
+        font-family: "Exo 2" !important;
+        color: #ccc;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 0.962;
+        text-align: left !important;
+    }
+    .puestoponente{
+        font-size: 14.266px !important;
+        font-family: "Exo 2" !important;
+        color: #ccc;
+        line-height: 1.262;
+        text-align: left !important;
+    }
+
+    /*--------------------------------*/
+    div.tiempo {
+        display: inline-block;
+        line-height: 1;
+
+        font-size: 40px;
+    }
+
+    span {
+        display: block;
+        font-size: 25px;
+        font-family: "Exo 2 Light";
+        color: rgb(255, 255, 255);
+
+    }
+
+    #days {
+        font-size: 50.5px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+    }
+    #days span,
+    #hours span,
+    #minutes span,
+    #seconds span
+    {
+        font-weight: normal;
+        font-family: "Exo 2";
+    }
+    #hours {
+        font-size: 50.5px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+    }
+    #minutes {
+        font-size: 50.5px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+    }
+    #seconds {
+        font-size: 50.5px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+        width: 100px;
+    }
+    .borde{
+        border-left: 1px solid white;
+        padding-left: 5px;
+    }
+    .contenedor{
+        position: absolute;
+        right: 398px;
+        bottom: 126px;
+    }
+    .word2,
+    .word { 
+        font-family: "Exo 2" !important;
+        color:white;
+        line-height: 1.4em;
+        height: 1.4em;
+        padding: 0 14px 0 7px;
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+    }
+
+    .word:before {
+        /*font-family: "Exo 2 Light";
+        color:white;
+        content: '';
+        background-color: white;
+        width: 1px;
+        position: absolute;
+        top: 5px;
+        bottom: 5px;
+        right: 7px;*/
+    }
+
+    #pelota {
+  position: absolute;
+  
+  animation: rebota 6s alternate infinite ease-out;
+  
+}
+
+@-webkit-keyframes rebota {
+  0% {
+    top: 100px;
+    right: 150px;    
+  }
+  100% {
+    top: 150px;
+    right: 200px;    
+  }
+}
+
+    .textos{
+        position: absolute;
+        left: 337px;
+        bottom: 200px;
+    }
+    .logoceo{
+        position: absolute;
+        left: 236px;
+        top: 101px;
+    }
+    .imglogoceo{
+        width: 200px;
+    }
+    }
+/*   encuentro    */
+#contenedorencuentro{
+   padding-bottom: 40px; 
+}
+.titulo_encuentro{   
+  font-size: 93.75px;
+  font-family: "Exo 2";
+  color: transparent;
+  text-transform: uppercase;
+  line-height: 1.2;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px #f8304d;    
+}
+.subtitulo_encuentro{
+  font-size: 39.583px;
+  font-family: "Exo 2";
+  color: rgb(90, 0, 157);
+  font-weight: bold;
+  line-height: 1.2;   
+}
+.texto_encuentro{
+  font-size: 16.667px;
+  font-family: "Exo 2";
+  color: rgb(75, 75, 75);
+  line-height: 1.44;
+}
+.edicion2019{
+    font-size: 61px;
+    font-family: "Exo 2";
+    font-weight: bold;
+    color: rgb(48, 243, 248);
+    line-height: 1;            
+}
+
+.titulo2encuentro{
+  font-size: 39.583px;
+  font-family: "Exo 2";
+  color: rgb(34, 34, 34);
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.subtitulo2encuentro{
+   font-size: 18.667px;
+   font-family: "Exo 2";
+   font-weight: bold;
+   color: #5a009d;
+   line-height: 1.44;      
+  
+}
+.fuente_encuentro
+{
+
+   font-size: 12.667px;
+   font-family: "Exo 2";
+   color: #555;
+   line-height: 1.44;      
+
+}
+.hr_encientro2{
+    border: 1px solid #cccccc;
+}
+.hr_encientro{
+  border: 1px solid #cccccc;  
+}
+.texto2encuentro
+{
+  font-size: 16.667px;
+  font-family: "Exo 2";
+  color: #555;
+  line-height: 1.44;
+  }
+  
+  
+  .naranja:hover,.social:hover,.anahuac:hover,.iodemc:hover,.sum:hover,.naranja:focus,.social:focus,.anahuac:focus,.iodemc:focus,.sum:focus{
+    color: red !important;
+    text-decoration: none;
+  }
+  
+  .contenidofundador{
+    font-size: 16.667px;
+    font-family: "Exo 2";
+    color: rgb(85, 85, 85);
+    line-height: 1.44;
+    
+  }
+  .contenidofundadorbold{
+    font-size: 16.667px;
+    font-family: "Exo 2";
+    color: rgb(85, 85, 85);
+    line-height: 1.44;
+    font-weight: bold;
+    display: contents;
+  }
+  .titulofundador{
+    
+  font-size: 25px;
+  font-family: "Exo 2";
+  color: rgb(34, 34, 34);
+  font-weight: bold;
+    
+  }
+  .informacionfundador{
+    font-size: 16px;
+      font-family: "Exo 2";
+      color: rgb(85, 85, 85);
+      line-height: 1.44;
+      text-align: left;
+  }
+  .informacionfundador:hover,.informacionfundador:focus{
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+  }
+  .linkfundador{
+    font-size: 16px;
+  font-family: "Exo 2";
+  /*color: rgb(248, 48, 77);*/
+  color:grey;
+  line-height: 1.176;
+  text-align: left;
+  }
+  .linkfundador:focus,.linkfundador:hover{
+    color:red;
+    text-decoration: none;
+  }
+  /*.lineapuntos
+   {list-style-type: none;}
+   .lineapuntos:after
+   {content: "-"} */
+    .lineapuntos li{list-style-type: none}
+    .lineapuntos li:before{content: "-"}

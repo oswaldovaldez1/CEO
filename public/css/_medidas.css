@@ -1,0 +1,2125 @@
+@media (min-width: 320px) {
+    
+    #seccionvideox,
+    #seccionvideo
+    {height: 315px;
+    }
+    .imgene1{
+        position: absolute;
+        opacity: 0;    
+        visibility: hidden;
+    }
+    .imgene2{
+        position: absolute;        
+        visibility: hidden;
+        opacity: 0;
+    }
+    .imgmapa{
+        content: url('../img/home/mapa/mapa_movil.png');
+        top: 280px !important;
+    }
+    .footer{
+    height: 78px;   
+    }
+       .centrado{
+    /*height: 100vh;*/
+    /*padding-top: 50px;
+    padding-bottom: 50px;
+     display: flex;
+    align-items: center;*/
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+    .pasox{
+    height: 20px;    
+    }
+    .tr1,.tr2{
+        opacity: 0;
+        z-index: 0;
+        top:400px;
+    }
+    .cubomedidas{                
+                position: absolute;
+                visibility: hidden;
+                opacity: 0;
+    }
+    .astronautaencuentro
+    {
+        position: absolute;
+        visibility: hidden;
+        opacity: 0;
+        
+    }
+    .planetaencuentro{
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+    }
+    .dialogos{
+        padding-left: 0px;
+        width: 320px !important;
+    }
+    .infomodal{
+        width: 320px !important;
+        overflow: auto; 
+        height: 90vh;
+    }
+/*    .modal-content{
+        width: 320px;
+    }*/
+    .mask{
+         width: 230px !important;
+        left: 45px !important;
+
+        
+    }
+    .textoponentes {
+    text-align: justify;
+    width: 100%;
+    overflow-y: auto;
+    padding-top: 40px;
+    padding-bottom: 50px;
+   
+}
+    
+    
+    .imgfoot{
+            
+            width: 90%;
+            height: 20%;
+            content:url('../img/footer_movil.png');
+    }
+    .patrocina{
+        width: 140px !important;
+        padding-bottom: 10px;
+    }
+    .aliado{
+        width: 180px !important;
+        padding-top: 10px !important;
+    }
+    .socio{
+        width: 300px;
+    }
+       .iconoceo {
+    position: absolute;
+/*    left: 15%;*/
+    
+    padding-top: 24px;
+}   
+    .derres {
+    color: white;
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 20%;
+    font-size: 11.458px;
+    font-family: "Exo 2 Light";
+    color: rgb(255, 255, 255);
+    line-height: 1.92;
+    width: 300px;
+}
+    .puntos {
+    position: absolute;
+    left: -515px;
+    bottom: -259px;
+    width: 340px;
+    visibility: visible !important;
+}
+  .triangulo1{
+        position: absolute;
+        right: 50px;
+        top: 20px;
+        visibility: hidden !important;
+    }
+    .triangulo2{
+        position: absolute;
+        right: 50px;
+        top: -3px;
+        visibility: hidden !important;
+    }
+    .bannerpr{
+        background-image: url('../img/home/320/banner.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 700px !important;
+    }
+    
+    #days span,
+    #hours span,
+    #minutes span,
+    #seconds span
+    {
+        font-weight: normal;
+        font-family: "Exo 2";
+        font-size: 12px;        
+    }
+    #days {
+        font-size: 30px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+    }
+    #hours {
+        font-size: 30px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+    }
+    #minutes {
+        font-size: 30px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+    }
+    #seconds {
+        font-size: 30px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+        
+    }
+    
+    .planeta {
+        width: 139px;
+        height: auto;
+        position: absolute;
+        right: 19px;
+        top: 200px;
+    }
+       .astroimg{
+        width: 100px;
+        height: auto;
+    }
+    #pelota {
+  position: absolute;
+  
+  animation: rebota 8s alternate infinite ease-out;
+}
+@-webkit-keyframes rebota {
+  0% {
+    top: 190px;
+    right: 7px;    
+  }
+  100% {
+    top: 220px;
+    right: 12px;    
+  }
+}
+    .cubo{
+        height: 50px;
+    width: auto;
+    position: absolute;
+    right: 5px;
+    top: 170px;
+    visibility: hidden !important;        
+    }
+    
+    
+    
+    .basefrase1{
+    position: absolute;
+    /*bottom: 166px;*/
+    bottom: 0px !important;
+    top: 338px;
+    width: 243px;
+    height: auto;    
+    left: 37px;        
+    }
+    .basefrase2{
+        position: absolute;
+        /*bottom: 102px;*/
+        bottom: 0px;
+        top: 388px;
+        height: auto;
+        width: 244px;
+        left: 37px;                
+    }
+    .textos{
+        position: absolute;
+        left: 47px;
+        /*bottom: 171px;*/
+        bottom: 0px !important;
+        top: 338px;
+    }
+    .textos2{
+        position: absolute;
+        left: 47px;
+        /*bottom: 108px;*/
+        bottom: 0px !important;
+        top: 398px;
+    }
+        .fecha {
+        
+        font-family: "EXO 2";
+        font-size: 20px;
+        position: absolute;
+        color: white;
+        /*bottom: 44px;*/
+        bottom: 0px !important;
+        top: 448px;
+        left: 70px;
+        line-height: 40px;
+        font-weight: bold;
+        }
+        #timer,
+        #timerx{
+            position: absolute;
+        width: 260px !important;
+    right: 10px ;
+    top: 488px;
+    }
+    .contenedor{
+        position: absolute;
+        left: 0px;
+        bottom: 16px;
+    }
+    .logoceo{
+        position: absolute;
+        left: 37px;
+        top: 70px;
+        
+    }
+    
+    .organizadores{
+        position: fixed !important;
+            bottom: 0px !important;
+            z-index: 0;
+    }
+    .ocultame{
+    visibility: hidden;
+    }
+    .itemfoote {
+        font-size: 1px;
+        color: transparent !important;
+    }
+    .menufooter{
+        padding-top: 0px !important;
+    }
+     
+}
+
+
+@media (min-width: 375px) {
+    .socio{
+        width: 300px;
+        padding-left: 27px;     
+    }
+    .iconoceo {
+    position: absolute;
+    /* left: 15%; */
+    padding-top: 18px;
+    }
+    .bannerpr{
+        background-image: url('../img/home/375/banner.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    #days span,
+    #hours span,
+    #minutes span,
+    #seconds span
+    {
+        font-weight: normal;
+        font-family: "Exo 2";
+        font-size: 12px;        
+    }
+    #days {
+        font-size: 30px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+    }
+    #hours {
+        font-size: 30px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+    }
+    #minutes {
+        font-size: 30px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+    }
+    #seconds {
+        font-size: 30px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+        
+    }
+    /*#timer{
+            width: 285px !important;
+    left: 82px !important;
+    top: 585px;
+    }*/
+    .planeta {
+        width: 139px;
+        height: auto;
+        position: absolute;
+        right: 99px;
+        top: 220px;
+    }
+       .astroimg{
+        width: 100px;
+        height: auto;
+    }
+    #pelota {
+  position: absolute;
+  
+  animation: rebota 6s alternate infinite ease-out;
+}
+@-webkit-keyframes rebota {
+  0% {
+    top: 230px;
+    right: 80px;    
+  }
+  100% {
+    top: 280px;
+    right: 100px;    
+  }
+}
+    .cubo{
+        height: 50px;
+    width: auto;
+    position: absolute;
+    right: 5px;
+    top: 170px;
+    visibility: hidden !important;        
+    }
+    .basefrase1{
+    position: absolute;
+    bottom: 126px;
+    width: 243px;
+    height: auto;    
+    left: 37px;        
+    }
+    .basefrase2{
+        position: absolute;
+        bottom: 72px;
+        height: auto;
+        width: 244px;
+        left: 37px;                
+    }
+    .textos{
+        position: absolute;
+        left: 47px;
+        bottom: 141px;
+    }
+    .textos2{
+        position: absolute;
+        left: 47px;
+        bottom: 78px;
+    }
+
+    .contenedor{
+        position: absolute;
+        left: 0px;
+        bottom: 16px;
+    }
+    .logoceo{
+        position: absolute;
+        left: 37px;
+        top: 90px;
+    }
+    /*.fecha {
+        
+        font-family: "EXO 2";
+        font-size: 24px;
+        position: absolute;
+        color: white;
+        top: 529px;        
+        left: 60px;
+        line-height: 40px;
+        font-weight: bold;
+    }*/
+    .organizadores{
+        position: relative !important;
+    }
+    .socion1{
+        padding-top: 15px;
+    }
+    .socion2{
+        padding-left: 20px;
+    }
+    .socion3{
+        padding-left: 12px;
+    }
+    .socio4{
+        padding-top: 6px;
+    }
+    .patrocina{
+    width: 173px !important;
+    }
+    .pat1{
+        padding-left: 12px;
+    }
+    .pat2{
+        padding-left: 12px;
+    }
+    .pat3{ padding-top: 8px;
+    padding-left: 12px;}
+    .pat4{
+        padding-left: 12px;
+    }
+    .pat5{
+        padding-left: 36px;
+    }
+    .pat6{
+        padding-top: 8px;
+        padding-left: 12px;
+    }
+    .derres {
+    color: white;
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 15%;
+    font-size: 11.458px;
+    font-family: "Exo 2 Light";
+    color: rgb(255, 255, 255);
+    line-height: 1.92;
+    width: 330px;
+}
+.mask {
+    width: 230px !important;
+    left: 51px !important;
+}
+}
+/**/
+@media (min-width: 384px) {
+    .basefrase1{
+    position: absolute;
+    bottom: 27%;
+    width: 243px;
+    height: auto;    
+    left: 37px;        
+    }
+    .basefrase2{
+        position: absolute;
+        bottom: 18%;
+        height: auto;
+        width: 244px;
+        left: 37px;                
+    }
+    .textos{
+        position: absolute;
+        left: 47px;
+        bottom: 27%;
+    }
+    .textos2{
+        position: absolute;
+        left: 47px;
+        bottom: 20%;
+    }
+
+}
+@media (min-width: 414px) {
+    .basefrase1{
+    position: absolute;
+    bottom: 36%;
+    width: 243px;
+    height: auto;    
+    left: 37px;        
+    }
+    .basefrase2{
+        position: absolute;
+        bottom: 28%;
+        height: auto;
+        width: 244px;
+        left: 37px;                
+    }
+    .textos{
+        position: absolute;
+        left: 47px;
+        bottom: 36%;
+    }
+    .textos2{
+        position: absolute;
+        left: 47px;
+        bottom: 30%;
+    }
+    .mask {
+    width: 230px !important;
+    left: 68px !important;
+}
+.fecha {
+    font-family: "EXO 2";
+    font-size: 24px;
+    position: absolute;
+    color: white;
+    top: 529px;
+    left: 69px;
+    line-height: 40px;
+    font-weight: bold;
+}
+#timer {
+    width: 255px !important;
+
+    top: 585px;
+}
+}
+@media screen and ( height: 800px ){
+    .basefrase1{
+    position: absolute;
+    bottom: 126px;
+    width: 243px;
+    height: auto;    
+    left: 37px;        
+    }
+    .basefrase2{
+        position: absolute;
+        /*bottom: 112px;*/
+        bottom: 70px;
+        height: auto;
+        width: 244px;
+        left: 37px;                
+    }
+       .textos{
+        position: absolute;
+        left: 47px;
+        bottom: 181px;
+    }
+    .textos2{
+        position: absolute;
+        left: 47px;
+        bottom: 122px;
+    }
+    #timer{
+            width: 100px !important;
+    left: 82px !important;
+    top: 475px;
+    }
+    .fecha {
+    font-family: "EXO 2";
+    font-size: 24px;
+    position: absolute;
+    color: white;
+    top: 479px;
+    left: 60px;
+    line-height: 40px;
+    font-weight: bold;
+}
+}
+
+/**/
+@media screen and ( height: 579px ){
+    .basefrase1{
+    position: absolute;
+    bottom: 176px;
+    width: 243px;
+    height: auto;    
+    left: 37px;        
+    }
+    .basefrase2{
+        position: absolute;
+        bottom: 112px;
+        height: auto;
+        width: 244px;
+        left: 37px;                
+    }
+       .textos{
+        position: absolute;
+        left: 47px;
+        bottom: 181px;
+    }
+    .textos2{
+        position: absolute;
+        left: 47px;
+        bottom: 122px;
+    }
+    #timer{
+            width: 255px !important;
+    left: 82px !important;
+    top: 515px;
+    }
+    .fecha {
+    font-family: "EXO 2";
+    font-size: 24px;
+    position: absolute;
+    color: white;
+    top: 479px;
+    left: 60px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.planeta{
+    width: 139px;
+    height: auto;
+    position: absolute;
+    right: 69px;
+    top: 220px;
+}
+#pelota {
+  position: absolute;
+  
+  animation: rebota 6s alternate infinite ease-out;
+}
+@-webkit-keyframes rebota {
+  0% {
+    top: 200px;
+    right: 60px;    
+  }
+  100% {
+    top: 250px;
+    right: 80px;    
+  }
+}
+}
+
+@media screen and ( height: 667px ){
+    .basefrase1{
+    position: absolute;
+    bottom: 226px;
+    width: 243px;
+    height: auto;    
+    left: 37px;        
+    }
+    .basefrase2{
+        position: absolute;
+        bottom: 162px;
+        height: auto;
+        width: 244px;
+        left: 37px;                
+    }
+       .textos{
+        position: absolute;
+        left: 47px;
+        bottom: 231px;
+    }
+    .textos2{
+        position: absolute;
+        left: 47px;
+        bottom: 172px;
+    }
+    .mask {
+    width: 230px !important;
+    left: 52px !important;
+}
+}
+
+@media (min-width: 425px) {
+    .bannerpr{
+        background-image: url('../img/home/425/banner.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+    }
+    .imgmapa{
+        content: url('../img/home/mapa/mapa.png');
+        top: 240px !important;
+    }
+    #days span,
+    #hours span,
+    #minutes span,
+    #seconds span
+    {
+        font-weight: normal;
+        font-family: "Exo 2";
+        font-size: 12px;        
+    }
+    #days {
+        font-size: 30px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+    }
+    #hours {
+        font-size: 30px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+    }
+    #minutes {
+        font-size: 30px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+    }
+    #seconds {
+        font-size: 30px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+        
+    }
+    /*#timer{
+        width: 57% !important;
+        left: 122px !important;
+    }*/
+    .planeta {
+        width: 139px;
+        height: auto;
+        position: absolute;
+        right: 99px;
+        top: 220px;
+    }
+       .astroimg{
+        width: 100px;
+        height: auto;
+    }
+    #pelota {
+  position: absolute;
+  
+  animation: rebota 6s alternate infinite ease-out;
+}
+@-webkit-keyframes rebota {
+  0% {
+    top: 230px;
+    right: 80px;    
+  }
+  100% {
+    top: 280px;
+    right: 100px;    
+  }
+}
+    .cubo{
+        height: 50px;
+    width: auto;
+    position: absolute;
+    right: 5px;
+    top: 170px;
+    visibility: hidden !important;        
+    }
+    .basefrase1{
+    position: absolute;
+    bottom: 186px;
+    width: 243px;
+    height: auto;    
+    left: 37px;        
+    }
+    .basefrase2{
+        position: absolute;
+        bottom: 122px;
+        height: auto;
+        width: 244px;
+        left: 37px;                
+    }
+    .textos{
+        position: absolute;
+        left: 47px;
+        bottom: 191px;
+    }
+    .textos2{
+        position: absolute;
+        left: 47px;
+        bottom: 128px;
+    }
+
+    .contenedor{
+        position: absolute;
+        left: 0px;
+        bottom: 16px;
+    }
+    .logoceo{
+        position: absolute;
+        left: 37px;
+        top: 90px;
+    }
+    /*.fecha {
+        
+        font-family: "EXO 2";
+        font-size: 24px;
+        position: absolute;
+        color: white;
+        top: 84%;
+        left: 108px;
+        line-height: 40px;
+        font-weight: bold;
+    }*/
+    .organizadores{
+        position: relative !important;
+    }
+}
+@media (min-width: 700px) {
+    div.tiempo {
+        display: inline-block;
+        line-height: 1;
+
+        font-size: 40px;
+    }
+
+    span {
+        display: block;
+        font-size: 25px;
+        font-family: "Exo 2 Light";
+        color: rgb(255, 255, 255);
+
+    }
+
+    #days {
+        font-size: 50.5px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+    }
+    #days span,
+    #hours span,
+    #minutes span,
+    #seconds span
+    {
+        font-weight: normal;
+        font-family: "Exo 2";
+    }
+    #hours {
+        font-size: 50.5px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+    }
+    #minutes {
+        font-size: 50.5px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+    }
+    #seconds {
+        font-size: 50.5px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+        width: 100px;
+    }
+    #timer{
+        top:553px;
+        width: 400px !important;
+        right: 21%;
+    }
+    .bannerpr{
+        background-image: url('../img/home/768/banner.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+    }
+    .puntos {
+    position: absolute;
+    right: 0px;
+    bottom: -259px;
+    width: 340px;
+    visibility: hidden;
+}
+.basefrase1{
+            position: absolute;
+    bottom: 202px;
+    height: auto;
+    width: 227px;
+    left: 127px;        
+    }
+    .basefrase2{
+            position: absolute;
+    bottom: 157px;
+    height: auto;
+    width: 227px;
+    left: 127px;                
+    }
+    #pelota {
+  position: absolute;
+  
+  animation: rebota 6s alternate infinite ease-out;
+}
+@-webkit-keyframes rebota {
+  0% {
+    top: 100px;
+    right: 150px;    
+  }
+  100% {
+    top: 150px;
+    right: 200px;    
+  }
+}
+
+}
+
+@media (min-width: 768px) {
+    .imgfoot{
+        width: 80% !important;
+        height: auto;
+    }
+    .imgenc2{
+         position: absolute;
+        top: 87%;   
+    }
+    .fecha {
+        
+        font-family: "EXO 2";
+        font-size: 48px;
+        position: absolute;
+        color: white;
+        top: 483px;
+        left: 90px;
+        line-height: 40px;
+        font-weight: bold;
+    }
+    .bannerpr{
+        background-image: url('../img/home/768/banner.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+    }
+    .puntos {
+    position: absolute;
+    right: 0px;
+    bottom: -259px;
+    width: 340px;
+    visibility: hidden;
+}
+.astroimg{
+        width: 200px;
+        height: auto;
+    }
+    .planeta{
+        width: 300px;
+        height: auto;
+        position: absolute;
+        right: 135px;
+        top: 30px;
+    }
+    .cubo{
+        height: 50px;
+    width: auto;
+    position: absolute;
+    right: 500px;
+    top: 170px;
+    visibility: hidden !important;        
+    }
+    .contenedor{
+        position: absolute;
+        right: 50px;
+        bottom: 126px;
+    }
+    .word,.word2 { 
+        font-family: "Exo 2";
+        color:white;
+        line-height: 1.4em;
+        height: 1.4em;
+        padding: 0 14px 0 7px;
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+    }
+    .logoceo{
+        position: absolute;
+        left: 86px;
+        top: 101px;
+    }
+    .textos{
+            position: absolute;
+    left: 77px;
+    bottom: 300px;
+    }
+    .textos2{
+            position: absolute;
+    left: 77px;
+    bottom: 258px;
+    }
+    .triangulo1{
+        position: absolute;
+        right: 0px;
+        top: 20px;
+        visibility: hidden !important;
+    }
+    .triangulo2{
+        position: absolute;
+        right: 0px;
+        top: -3px;
+        visibility: hidden !important;
+    }
+    .basefrase1{
+    position: absolute;
+    bottom: 300px;
+    height: auto;
+    width: 227px;
+    left: 77px;        
+    }
+    .basefrase2{
+    position: absolute;
+    bottom: 246px;
+    height: auto;
+    width: 227px;
+    left: 77px;                
+    }
+}
+
+/*@media (min-width: 992px) {
+    .bannerpr{
+        background-image: url('../img/home/992/banner.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+    }
+}*/
+
+@media (min-width: 1024px) {
+    
+    .footer{
+    height: 150px;   
+    }
+    .centrado{
+    /*height: 100vh;*/
+    /*padding-top: 50px;
+    padding-bottom: 50px;
+     display: flex;
+    align-items: center;*/
+    align-items: center;
+    margin-top: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+    /**/
+    .pasox{
+        height: 0px;
+        width: 100%;
+        background-color: white;
+    }
+    
+    .itemfooter:hover{
+        color: rgb(255, 255, 255);
+        text-decoration: underline;
+        text-decoration-color: red;
+    }   
+    #seccionvideox,
+    #seccionvideo
+    {height: 530px;
+    }
+   .pat1{
+        padding-left: 0px;
+    }
+    .pat2{
+        padding-left: 0px;
+    }
+    .pat3{ padding-top: 8px;
+    padding-left: 0px;}
+    .pat4{
+        padding-left: 0px;
+    }
+    .pat5{
+        padding-left: 0px;
+    }
+    .pat6{
+        padding-top: 8px;
+        padding-left: 0px;
+    }
+    .itemfoote,
+    .itemfooter{
+        font-size: 10.417px;
+      font-family: "Exo 2";
+      color: rgb(255, 255, 255) !important;
+      text-transform: uppercase;
+    }
+    .derres {
+        color: white;
+    position: absolute;
+    padding-top: 70px;
+    padding-left: 60%;
+    font-size: 11.458px;
+    font-family: "Exo 2 Light";
+    color: rgb(255, 255, 255);
+    line-height: 1.92;
+    width: auto;
+    }
+    .organizadores{
+        position: fixed !important;
+            bottom: 0px !important;
+            z-index: 10;
+            height: 60px
+    }
+    .iconoceo {
+    position: absolute;
+/*    left: 50%;
+    right: 50%;*/
+    padding-top: 44px;
+    }
+    .ocultame{
+    visibility: visible;
+    }
+    .imgene1{
+        position: absolute;
+    right: 30px;
+    opacity: 1;
+    visibility: visible;
+    }
+    .imgene2{
+        position: absolute;
+        left: 0px;
+        top: 100px;
+        visibility: visible;
+        opacity: 1;
+    }
+    .imgenc2{
+        padding-top: 289px;
+        position: relative;
+        top:0px;
+    }
+    .tr1,.tr2{
+        opacity: 1;
+    }
+    .cubomedidas{
+                padding-left: 88px;
+                position: relative;
+                visibility: visible;
+                opacity: 1;                
+    }
+    .astronautaencuentro
+    {
+        position: absolute;
+        visibility: visible;
+        opacity: 1;
+        top: 47px;
+        left: 47px;
+    }
+    .planetaencuentro{
+        visibility: visible;
+        position: relative;
+        opacity: 1;
+    }
+    .edicion2019{
+    font-size: 61px;
+    font-family: "Exo 2";
+    font-weight: bold;
+    color: rgb(48, 243, 248);
+    line-height: 1;
+    padding-top: 245px;            
+}
+    
+    /**/
+    .infomodal{
+            width: 900px !important;
+    overflow: auto;
+    height: 435px;
+    }
+    .modal-content{
+        width: 800px;
+    }
+    .mask{
+        left: 0px !important;
+    }
+    .secciones {
+    background-image: url(../img/home/bannerprincipal/base01_frase.png);
+    color: white;
+    position: absolute;
+    right: 50%;
+    font-family: "EXO 2";
+    top: 114px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    padding-left: 19px;
+    padding-top: 10px;
+    background-size: 100% 100%;
+}
+.planeta1  {
+    width: 108px;
+    position: absolute;
+    top: 100px;
+    right: 20px;}
+    .textoponentes {
+    text-align: justify;
+    width:64%;
+    overflow-y: auto;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.cubo1{
+    width: 60px;
+    position: absolute;
+    right: 70%;
+    top: 67px;
+}
+    .dialogos{
+        padding-left: 200px;
+    }
+    .patrocina{
+        width: auto !important;
+        padding-bottom: 0px;
+    }
+    .aliado{
+        width: auto !important;
+        padding-top: 0px !important;
+    }
+    /**/
+    
+        
+    .basefrase1{
+    position: absolute;
+    /*bottom: 166px;*/
+    bottom: 0px !important;
+    top: 388px;
+    width: 243px;
+    height: auto;    
+    left: 127px;        
+    }
+    .basefrase2{
+        position: absolute;
+        /*bottom: 102px;*/
+        bottom: 0px;
+        top: 438px;
+        height: auto;
+        width: 244px;
+        left: 127px;                
+    }
+    .textos{
+        position: absolute;
+        left: 147px;
+        /*bottom: 171px;*/
+        bottom: 0px !important;
+        top: 388px;
+    }
+    .textos2{
+        position: absolute;
+        left: 147px;
+        /*bottom: 108px;*/
+        bottom: 0px !important;
+        top: 448px;
+    }
+        .fecha {
+        
+        font-family: "EXO 2";
+        font-size: 20px;
+        position: absolute;
+        color: white;
+        /*bottom: 44px;*/
+        bottom: 0px !important;
+        top: 448px;
+        left: 70px;
+        line-height: 40px;
+        font-weight: bold;
+        }
+     
+
+    
+    /*------------*/
+    #timer{
+         
+    width: 350px !important;
+    
+    
+    right: 200px !important;
+    top: 400px !important; 
+      
+    }
+    .fecha {
+        font-family: "EXO 2";
+    font-size: 28px;
+    position: absolute;
+    color: white;
+    top: 288px;
+    left: 90px;
+    line-height: 40px;
+    font-weight: bold;
+    }
+    /*.basefrase1{
+            position: absolute;
+    bottom: 200px;
+    height: auto;
+    width: 227px;
+    left: 127px;        
+    }
+    .basefrase2{
+            position: absolute;
+    bottom: 146px;
+    height: auto;
+    width: 227px;
+    left: 127px;                
+    }
+    .textos{
+        position: absolute;
+        left: 137px;
+        bottom: 200px;
+    }
+    .textos2{
+        position: absolute;
+        bottom: 158px;
+        left: 137px;
+    }
+    /**/
+    .imgfoot{
+        width: 750px !important;
+        content:url('../img/footer.png');
+        height: 50px;
+    padding-top: 5px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    }
+    
+    
+    .bannerpr{
+        background-image: url('../img/home/1024/banner.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 682px !important;
+    }
+    .astroimg{
+        width: 200px;
+        height: auto;
+    }
+    .planeta{
+        width: 300px;
+        height: auto;
+        position: absolute;
+        right: 135px;
+        top: 30px;
+    }
+    .cubo{
+        height: 50px;
+    width: auto;
+    position: absolute;
+    right: 500px;
+    top: 120px;
+    visibility: visible !important;
+        
+    }
+    .contenedor{
+            position: absolute;
+    right: 234px;
+    bottom: 126px;
+    }
+    .word,.word2 { 
+        font-family: "Exo 2";
+        color:white;
+        line-height: 1.4em;
+        height: 1.4em;
+        padding: 0 14px 0 7px;
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+    }
+    .logoceo{
+        position: absolute;
+        left: 86px;
+        top: 101px;
+    }
+    
+    .puntos {
+    position: absolute;
+    left: -515px;
+    bottom: -259px;
+    width: 340px;
+    visibility: visible !important;
+}
+  .triangulo1{
+        position: absolute;
+        right: 0px;
+        top: 20px;
+        visibility: hidden !important;
+    }
+    .triangulo2{
+        position: absolute;
+        right: 0px;
+        top: -3px;
+        visibility: hidden !important;
+    }
+    .triangulo1 {
+    position: absolute;
+    /*left: -30px;*/
+    top: -3px;
+    visibility: hidden !important;
+}
+    
+}
+/*
+@media screen and ( height: 800px ){
+    .basefrase1{
+    position: absolute;
+    bottom: 126px;
+    width: 243px;
+    height: auto;    
+    left: 37px;        
+    }
+    .basefrase2{
+        position: absolute;
+        ---bottom: 112px;
+        bottom: 70px;
+        height: auto;
+        width: 244px;
+        left: 37px;                
+    }
+       .textos{
+        position: absolute;
+        left: 37px;
+        bottom: 181px;
+    }
+    .textos2{
+        position: absolute;
+        left: 37px;
+        bottom: 122px;
+    }
+    #timer{
+            width: 100px !important;
+    left: 82px !important;
+    top: 475px;
+    }
+    .fecha {
+    font-family: "EXO 2";
+    font-size: 24px;
+    position: absolute;
+    color: white;
+    top: 479px;
+    left: 60px;
+    line-height: 40px;
+    font-weight: bold;
+}
+}*/
+@media (min-width: 1280px) {
+    .bannerpr {
+    background-image: url(../img/home/1440/banner.png);
+    background-color: #36007d;
+    background-size: 1440px 768px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 768px;
+    }
+    .fecha {
+    font-family: "EXO 2";
+    font-size: 38px;
+    position: absolute;
+    color: white;
+    top: 314px;
+    left: 89px;
+    line-height: 40px;
+    font-weight: bold;
+}
+/**/
+#timer {
+        left: 700px !important;
+        width: 600px !important;
+        top: 450px;
+    }
+    #days span,
+    #hours span,
+    #minutes span,
+    #seconds span
+    {   font-size: 40px;
+        font-weight: normal;
+        font-family: "Exo 2";
+    }
+    #days {
+        font-size: 70px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+    }
+    #hours {
+        font-size: 70px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+    }
+    #minutes {
+        font-size: 70px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+    }
+    #seconds {
+        font-size: 70px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+        width: 100px;
+    }
+     
+    /*
+    .basefrase1{
+        position: absolute;
+        bottom: 322px;    
+        height: auto;
+        width: 332px;
+        left: 89px;       
+    }
+    .basefrase2{
+        position: absolute;
+    bottom: 242px;
+    height: auto;
+    width: 332px;    
+    left: 89px;
+    }
+    
+    .textos{
+        position: absolute;
+        left: 90px;        
+        bottom: 300px;
+        font-size: 80px;
+    }
+    .textos2{
+        
+        position: absolute;
+        
+        bottom: 257px;
+        left: 90px;
+    }*/
+    .word2,
+    .word{
+        font-size: 35px;
+    }
+    
+}
+
+@media (min-width: 1360px) {
+    .divapp .astronauta{
+        right: 92px;
+        top: -42px;
+         /*opacity: 1 !important;*/
+    /*visibility: visible !important;*/
+    animation-duration: 1s !important;
+    animation-iteration-count: infinite !important;
+    animation-name: pulse !important;
+    }
+    .divapp .textoapp{     
+        width: 154px;
+        color: rgb(90, 0, 157) !important;
+        padding-left: 35px;
+        padding-top: 16px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .divapp .textoapp a{
+        color: rgb(90, 0, 157) !important;
+        padding-left: 0px;
+        padding-top: 16px;
+        font-weight: bold;
+        text-decoration: none;        
+    }
+    .textoapp{
+    font-family: "Exo 2";
+    font-weight: bold;
+    line-height: 2.82;
+    text-align: left;
+    background-color: #30f3f8;
+    height: 72px;
+    width: 94px;
+    color: transparent !important;
+    text-decoration: none;
+    }
+    
+    .bannerpr {
+    background-image: url(../img/home/1440/banner.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.fecha {
+    font-family: "EXO 2";
+    font-size: 38px;
+    position: absolute;
+    color: white;
+    top: 314px;
+    left: 89px;
+    line-height: 40px;
+    font-weight: bold;
+}
+ .triangulo1{
+        position: absolute;
+        right: 0px;
+        top: 20px;
+        visibility: visible !important;
+    }
+    .triangulo2{
+        position: absolute;
+        right: 50px;
+        top: -3px;
+        visibility: visible !important;
+    }
+    .triangulo3 {
+    position: absolute;
+    left: -30px;
+    top: -3px;
+    visibility: visible !important;
+}
+
+/**/
+#timer {
+        left: 650px !important;
+        width: 600px !important;
+        top: 450px;
+    }
+    #days span,
+    #hours span,
+    #minutes span,
+    #seconds span
+    {   font-size: 40px;
+        font-weight: normal;
+        font-family: "Exo 2";
+    }
+    #days {
+        font-size: 70px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+    }
+    #hours {
+        font-size: 70px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+    }
+    #minutes {
+        font-size: 70px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+    }
+    #seconds {
+        font-size: 70px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+        width: 100px;
+    }
+    /**/
+    .basefrase1{        
+        height: auto;
+        width: 352px;
+        left: 89px;             
+    }
+    .basefrase2{
+    height: auto;
+    width: 352px;    
+    top:454px;
+    left: 89px;
+}
+    
+    .textos{               
+        font-size: 80px;
+        top: 345px;
+        left: 100px;
+    }
+    .textos2{        
+           font-size: 80px;
+           top:417px;
+           left: 100px;        
+    }
+    .word2,
+    .word{
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 1440px) {
+    
+    .bannerpr {
+    background-image: url(../img/home/1440/banner.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+    
+    #timer {
+    left: 750px !important;
+    width: 600px !important;
+    top:470px;
+}
+    .imgfoot{
+        width: auto !important;
+    }
+    .bannerpr{
+        background-image: url('../img/home/1440/banner.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+    }
+    .astroimg{
+        width: 200px;
+        height: auto;
+    }
+    .planeta{
+        width: 300px;
+        height: auto;
+        position: absolute;
+        right: 135px;
+        top: 30px;
+    }
+    .cubo{
+        height: 100px;
+    width: auto;
+    position: absolute;
+    right: 600px;
+    top: 140px;
+    visibility: visible !important;
+    animation: cubo 12s alternate infinite ease-out;
+    
+    }
+    @-webkit-keyframes cubo {
+  0% {
+    top: 70px;
+        
+  }
+  100% {
+    top: 150px;
+        
+  }
+}
+.modalmapa{
+    padding-top: 68px;
+}
+    .contenedor{
+        position: absolute;
+        right: 398px;
+        bottom: 126px;
+    }
+    .word,.word2 { 
+        font-family: "Exo 2";
+        color:white;
+        line-height: 1.4em;
+        height: 1.4em;
+        padding: 0 14px 0 7px;
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+    }
+    .logoceo{
+        position: absolute;
+        left: 236px;
+        top: 101px;
+    }
+    
+    .puntos {
+    position: absolute;
+    left: -600px;
+    width: 340px;
+    visibility: visible !important;
+}
+  .triangulo1{
+        position: absolute;
+        right: -120px;
+        top: 20px;
+        visibility: visible !important;
+    }
+    .triangulo2{
+        position: absolute;
+        right: -65px;
+        top: -3px;
+        visibility: visible !important;
+    }
+/*    .textos{
+        position: absolute;
+        left: 244px;
+        bottom: 240px;
+    }
+    .textos2{
+        position: absolute;
+        bottom: 190px;
+        left: 244px;
+    }
+    .basefrase1{
+            position: absolute;
+    bottom: 260px;
+    height: auto;
+    width: 320px;
+    left: 234px;        
+    }
+    .basefrase2{
+            position: absolute;
+    bottom: 180px;
+    height: auto;
+    width: 320px;
+    left: 234px;                
+    }*/
+    .textos,
+    .textos2{
+        left: 248px;
+    }
+    .basefrase1,
+    .basefrase2{
+        left: 234px;
+    }
+    .fecha{
+        font-family: "EXO 2";
+    font-size: 38px;
+    position: absolute;
+    color: white;
+    top: 293px;
+    left: 234px;
+    line-height: 40px;
+    font-weight: bold;
+    }
+    
+}
+
+@media (min-width: 1920px) {
+    .divapp .astronauta{
+        right: 92px;
+    }
+    .divapp .textoapp{     
+        width: 154px;
+        color: rgb(90, 0, 157) !important;
+        padding-left: 35px;
+        padding-top: 16px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .divapp .textoapp a{
+        color: rgb(90, 0, 157) !important;
+        padding-left: 15px;
+        padding-top: 16px;
+        font-weight: bold;
+        text-decoration: none;        
+    }
+        .textoapp{
+    font-family: "Exo 2";
+    font-weight: bold;
+    line-height: 2.82;
+    text-align: left;
+    background-color: #30f3f8;
+    height: 72px;
+    width: 94px;
+    color: transparent !important;
+    text-decoration: none;
+    }
+    .bannerpr{
+        background-image: url('../img/home/2047/banner.png');
+        background-size: 2000px 1000px;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+    }
+    .planeta{
+        width: 300px;
+        height: auto;
+        position: absolute;
+        right: 335px;
+        top: 30px;
+    }
+    .cubo{
+    height: 100px;
+    width: auto;
+    position: absolute;
+    right: 800px;
+    top: 150px;
+        
+    }
+    .contenedor{
+        position: absolute;
+        right: 598px;
+        bottom: 126px;
+    }
+    #timer {
+        left: 1000px !important;
+        width: 600px !important;
+        top:515px;
+    }
+    #days span,
+    #hours span,
+    #minutes span,
+    #seconds span
+    {   font-size: 40px;
+        font-weight: normal;
+        font-family: "Exo 2";
+    }
+    #days {
+        font-size: 90px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+    }
+    #hours {
+        font-size: 90px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+    }
+    #minutes {
+        font-size: 90px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+    }
+    #seconds {
+        font-size: 90px;
+        color: rgb(48, 243, 248);
+        font-weight: bold;
+        font-family: "Exo 2";
+        width: 100px;
+    }
+    /*
+    .basefrase1{
+        position: absolute;
+        bottom: 438px;    
+        height: auto;
+        width: 430px;
+        left: 327px;       
+    }
+    .basefrase2{
+            position: absolute;
+    
+    bottom: 329px;
+    height: auto;
+    width: 430px;
+    left: 327px;                
+    }
+    .textos{
+        position: absolute;
+        left: 337px;
+       
+        bottom: 426px;
+        font-size: 80px;
+    }
+    .textos2{
+        
+        position: absolute;
+       
+        bottom: 350px;
+        left: 337px;    
+    }*/
+    .word2,
+    .word{
+        font-size: 45px;
+    }
+}
+@media (min-width: 2047px) {
+    .bannerpr{
+        background-image: url('../img/home/2047/banner.png');
+        background-size: 2047px 900px;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+    }
+    .cubo {
+        height: 100px;
+        width: auto;
+        position: absolute;
+        right: 900px;
+        top: 293px;
+    }
+    .basefrase1,
+    .basefrase2 {
+        width: 410px;
+    }
+    .planeta {
+        width: 300px;
+        height: auto;
+        position: absolute;
+        right: 435px;
+        top: 230px;
+    }
+       #pelota {
+  position: absolute;
+  
+  animation: rebota 6s alternate infinite ease-out;
+}
+@-webkit-keyframes rebota {
+  0% {
+    top: 230px;
+    right: 300px;    
+  }
+  100% {
+    top: 270px;
+    right: 370px;    
+  }
+}
+.planeta {
+        width: 300px;
+        height: auto;
+        position: absolute;
+        right: 435px;
+        top: 130px;
+    }
+}
+
+@media (min-width: 2304px) {
+        
+    .bannerpr{
+        background-image: url('../img/home/2560/banner.png');
+        background-size: 2560px 700px;
+        background-repeat: no-repeat;
+        /*background-color: red;*/
+        width: 100%;
+        height: 700px;
+    }
+    @-webkit-keyframes rebota {
+  0% {
+    top: 130px;
+    right: 400px;    
+  }
+  100% {
+    top: 150px;
+    right: 470px;    
+  }
+}
+    
+    #timer {
+     left: 1300px !important; 
+    width: 600px !important;
+    top: 485px;
+}
+.basefrase1{
+    position: absolute;
+        bottom: 918px;    
+        height: auto;
+        width: 430px;
+        left: 234px;       
+    }
+    .basefrase2{
+            position: absolute;
+    
+    bottom: 809px;
+    height: auto;
+    width: 430px;
+    left: 234px;                
+    }
+    .textos{
+        position: absolute;
+        left: 244px;
+        /*bottom: 200px;*/
+        bottom: 906px;
+        font-size: 80px;
+    }
+    .textos2{
+        
+        position: absolute;
+        /*bottom: 158px;*/
+        bottom: 830px;
+        left: 244px;
+    }
+}
+@media (min-width: 2560px) {
+    .bannerpr{
+        background-image: url('../img/home/2560/banner.png');
+        background-size: 2560px 700px;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 700px;
+    }
+    #timer {
+    left: 1300px !important;
+}
+.basefrase1{
+    position: absolute;
+        bottom: 1118px;    
+        height: auto;
+        width: 430px;
+        left: 234px;       
+    }
+    .basefrase2{
+            position: absolute;
+    
+    bottom: 1009px;
+    height: auto;
+    width: 430px;
+    left: 234px;                
+    }
+    .textos{
+        position: absolute;
+        left: 244px;
+        /*bottom: 200px;*/
+        bottom: 1106px;
+        font-size: 80px;
+    }
+    .textos2{
+        
+        position: absolute;
+        /*bottom: 158px;*/
+        bottom: 1030px;
+        left: 244px;
+    }
+}

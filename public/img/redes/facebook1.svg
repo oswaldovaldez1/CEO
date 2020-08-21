@@ -1,0 +1,23 @@
+<svg id="facebook" xmlns="http://www.w3.org/2000/svg" width="34" height="35" viewBox="0 0 34 35">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cdcdcd;
+        fill-opacity: 0;
+        stroke: #000;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        font-size: 16px;
+        fill: #000;
+        text-anchor: middle;
+        font-family: "Exo 2 Light";
+      }
+    </style>
+  </defs>
+  <path id="Base" class="cls-1" d="M810.518,993.724a14.3,14.3,0,1,1-14.3,14.3A14.295,14.295,0,0,1,810.518,993.724Z" transform="translate(-793.5 -990.5)"/>
+  <text id="f" class="cls-2" transform="translate(16.571 22.887) scale(0.894)">f</text>
+</svg>

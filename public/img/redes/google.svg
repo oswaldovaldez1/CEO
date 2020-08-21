@@ -1,0 +1,22 @@
+<svg id="gmail" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cdcdcd;
+        fill-opacity: 0;
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        font-size: 16px;
+        fill: #fff;
+        text-anchor: middle;
+        font-family: "Exo 2 Light";
+      }
+    </style>
+  </defs>
+  <circle id="Base" class="cls-1" cx="17.266" cy="17.514" r="14.297"/>
+  <text id="g" class="cls-2" transform="translate(16.83 19.44) scale(0.894)">g</text>
+</svg>
